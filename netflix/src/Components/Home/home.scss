@@ -1,0 +1,182 @@
+.home {
+  height: 95vh;
+  background: url(../../assets/bgimg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  margin: auto;
+
+  .secHome {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    width: 50%;
+
+    .letterImg {
+      padding-left: 1rem;
+      gap: 1rem;
+      .logo {
+        padding-top: 5rem;
+        position: absolute;
+        height: 15px;
+        width: 15px;
+      }
+      h6 {
+        color: white;
+        font-size: 13px;
+        padding-left: 2rem;
+        font-weight: 800;
+        padding-top: 5rem;
+        letter-spacing: 0.2rem;
+      }
+    }
+
+    .title {
+      display: flex;
+      flex-direction: column;
+      padding-left: 1rem;
+      h1 {
+        color: white;
+        font-size: 50px;
+        font-weight: 600;
+      }
+      p {
+        color: white;
+        font-size: 12px;
+        font-weight: 200;
+        line-height: 1rem;
+        max-width: 41%;
+      }
+    }
+
+    .btnDiv {
+      display: flex;
+      flex-direction: row;
+      padding-top: 2rem;
+      padding-left: 2rem;
+      gap: 1rem;
+
+      button {
+        padding: 0 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .icon {
+          color: black;
+          font-size: 2rem;
+          align-items: center;
+        }
+
+        h5 {
+          font-size: 15px;
+          font-weight: 500;
+        }
+      }
+
+      .rightBtn {
+        background: grey;
+
+        .rightIcon {
+          color: white;
+          font-size: 2rem;
+          align-items: center;
+        }
+
+        h5 {
+          color: white;
+        }
+      }
+    }
+  }
+
+  .card {
+    padding-top: 0.5rem;
+    
+
+    h3 {
+      padding: 1rem 0 0 1rem;
+      // position: relative;
+      color: white;
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+
+    //css if we donot use mapping function
+
+    // .secDest {
+    //   width: 98%;
+    //   height: 200px;
+    //   display: flex;
+    //   flex-direction: row;
+    //   padding-left: 1rem;
+    //   padding-top: 0.5rem;
+    //   right: 0;
+    //   overflow: hidden;
+
+    //   .destImage {
+    //     height: 200px;
+    //     width: 20%;
+       
+
+    //     img {
+    //       position: relative;
+    //       height: 100%;
+    //       width: 98%;
+    //       object-fit: cover;
+    //       overflow: hidden;
+    //     }
+    //     .limg {
+          
+    //       padding: 1rem;
+    //       height: 20px;
+    //       width: 20px;
+    //       position: absolute;
+    //       z-index: 1000;
+          
+    //     }
+    //   }
+    // }
+
+
+    
+    .map{
+      padding-top: 1rem;
+      display: flex;
+      flex-direction: row;
+      padding-left: 1rem;
+      .secDest{
+        width: 98%;
+        height: 200px;
+        translate: .5s ease;
+
+        &:hover{
+          transform: translateY(-10px) scale(1.1);
+        }
+        .destImage{
+          justify-content: space-between;
+  height: 200px;
+ 
+
+  .logoImg{
+    position: absolute;
+    padding: 1rem;
+    height: 20px;
+    width: 20px;
+    z-index: 1000;
+  }
+  
+  img{
+    position: relative;
+    height: 100%;
+    width:98%;
+    object-fit: cover;
+  }
+        }
+      }
+    }
+    
+  }
+}

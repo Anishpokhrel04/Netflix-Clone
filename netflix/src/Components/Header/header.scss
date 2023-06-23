@@ -1,0 +1,55 @@
+.header{
+  height: max-content;
+  background-color: rgba(16,16,16);
+  display: flex;
+  flex-direction: row;
+
+  .logoDiv{
+    height: 40px;
+    width: 60px;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    img{
+      height: 40px;
+      width: 100px;
+    }
+  }
+  .navLists{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    // justify-content: space-between;
+    padding: 0 0 0 5rem;
+
+    .navItems{
+      display: flex;
+      text-decoration: none;
+
+      a{
+        color: white;
+        padding: 0 1rem;
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: 500;
+      }
+
+     
+
+    }
+     
+  }
+  .iconDiv{
+    
+        .icon{
+          color: white;
+          padding: 1rem;
+          font-size: 2rem;
+          font-weight: 500;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+
+}
